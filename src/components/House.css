@@ -1,0 +1,76 @@
+.house-design {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.25rem;
+    width: 100%;
+    max-width: 352px;
+    border-radius: 0.5rem;
+    border-top-left-radius: 90px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.house-design:hover {
+    box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.house-image {
+    margin-bottom: 2rem;
+}
+
+.house-first-div {
+    margin-bottom: 1rem;
+    display: flex;
+    column-gap: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.house-type {
+    background-color: #38a169;
+    border-radius: 10px;
+    color: white;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.house-country {
+    background-color: #8b5cf6;
+    border-radius: 10px;
+    color: white;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.house-address {
+    font-size: 1.125rem;
+    font-weight: 600;
+    max-width: 260px;
+}
+
+.house-price {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #7c3aed;
+    margin-bottom: 1rem;
+}
+
+.house-bed {
+    display: flex;
+    align-items: center;
+    color: #4a5568;
+    row-gap: 0.25rem;
+    column-gap: 0.25rem;
+}
+
+.house-icon {
+    font-size: 20px;
+}
+
+.house-div {
+    display: flex;
+    column-gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

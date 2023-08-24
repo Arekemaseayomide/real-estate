@@ -1,0 +1,68 @@
+.house-spinner {
+  margin-left: auto;
+  margin-right: auto;
+  color: #6b46c1;
+  font-size: 2.25rem;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.house-message {
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem; 
+  color: #a0aec0;
+  margin-top: 48px;
+}
+
+.houselist {
+    margin-bottom: 5rem;
+}
+
+.house {
+  max-width: 1200px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.houses {
+    color: black;
+    text-decoration: none;
+}
+
+.houselist-1 {
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .houselist-1 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .houselist-1 {
+      gap: 3.5rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }  
+
+  @keyframes custom-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .house-spinner {
+    animation: custom-spin 1s linear infinite; 
+  }
