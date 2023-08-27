@@ -53,16 +53,7 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
     }
-  } 
-
- @media (max-width: 767px) {
-   .house-spinner {
-     display: flex
-     align-items: center;
-     justify-content: center;
-     height: 100vh;
-   }
- } 
+  }  
 
   @keyframes custom-spin {
     0% {
