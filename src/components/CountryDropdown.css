@@ -37,10 +37,12 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 1.2;
+    color: black;
 }
 
 .dropdown-text {
     font-size: 13px;
+    color: black;
 }
 
 .dropdown-menu {
