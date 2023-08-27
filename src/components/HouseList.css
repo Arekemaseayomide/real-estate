@@ -52,7 +52,14 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
     }
-  }  
+  } 
+
+ @media (max-width: 767px) {
+   .house-spinner {
+     align-items: center;
+     justify-content: center;
+   }
+ } 
 
   @keyframes custom-spin {
     0% {
