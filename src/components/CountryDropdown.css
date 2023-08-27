@@ -75,3 +75,8 @@
       max-width: 296px;
     }
   }
+@media (max-width: 767px) {
+    .dropdown-country {
+        color: black;
+    }
+  }
