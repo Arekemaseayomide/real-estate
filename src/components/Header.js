@@ -13,8 +13,8 @@ const Header = () => {
                 <img src={logo} alt="Logo" />
             </Link>
             <div className='header-logo'>
-                <Link className='header-link' to=''>Log in</Link>
-                <Link className='header-link-2' to=''>Sign up</Link>
+                <Link className='header-link' to='/login'>Log in</Link>
+                <Link className='header-link-2' to='/sign'>Sign up</Link>
             </div>
        </div>
     </header>

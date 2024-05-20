@@ -5,6 +5,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import PropertyDetails from './pages/PropertyDetails';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
     <Header />
     <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/sign' element={<Signup/>}/>
       <Route path='/property/:id' element={<PropertyDetails />} />
     </Routes>
     <Footer />
